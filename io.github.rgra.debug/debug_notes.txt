@@ -1,11 +1,15 @@
 Explain Boat hiring
 Debug/Stop in Main
+
 F5 Step into
 F6 Step
-Strg+DF Drop to Frame
+Age is wrong
+
+Alt+DF Drop to Frame
 F5 Step into constructor
 Change age
 F7
+
 Add Formatter for Person
 Display Actual Type and InstanceId
 F8 Continue
@@ -30,12 +34,13 @@ Add Expression for map
 Show logical structure
 Add method breakpoint in returnBoat 
 
-Strg+DF Drop to Frame
+Alt+DF Drop to Frame
 
-F7 Step return
+Select last Line
+Strg+R Run to Line
 At the end of the method there should be no ref to person
 
-Strg+DF Drop to Frame
+Alt+DF Drop to Frame
 Change to remove instead of get
 F7 
 Reference is gone

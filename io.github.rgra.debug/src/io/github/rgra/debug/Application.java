@@ -4,7 +4,7 @@ import io.github.rgra.debug.model.Boat;
 import io.github.rgra.debug.model.BoatHire;
 import io.github.rgra.debug.model.Person;
 
-public class MyMain {
+public class Application {
 
 	private static void run() {
 		Person person = new Person("Rabea", 31);

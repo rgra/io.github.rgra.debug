@@ -1,0 +1,72 @@
+Explain Boat hiring
+Debug/Stop in Main
+F5 Step into
+F6 Step
+Strg+DF Drop to Frame
+F5 Step into constructor
+Change age
+F7
+Add Formatter for Person
+Display Actual Type and InstanceId
+F8 Continue
+
+Explain you don't like the titanic
+And theres something wrong with the name
+
+Add field Modification Breakpoint for name
+Add setter Method Breakpoint for name in outline
+Where are the boats created?
+Add Conditional Breakpoint in Contrustor with name and return false
+
+boat template to return and hire
+Run Again
+
+Add Exception Breakpoint
+Debug again
+F8 Run to Exception
+
+Error is not in hire, must be in returnBoat
+Add Expression for map
+Show logical structure
+Add method breakpoint in returnBoat 
+
+Strg+DF Drop to Frame
+
+F7 Step return
+At the end of the method there should be no ref to person
+
+Strg+DF Drop to Frame
+Change to remove instead of get
+F7 
+Reference is gone
+
+F6 How do String concats work nowadays?
+F5 Step into Sysout
+Add Filter for Getter/Setter
+
+Go to Concurrency Example and run it
+Stop
+Run in DEbug
+Pause
+Show Monitors
+
+Show Code Mining
+
+
+Trigger Point
+Supend on Change
+
+
+
+
+
+
+----------
+Remove all Breakpoints
+Remove Formatters
+Remove expression
+Switch of Logical Structure View
+Remove Columns in Variables view
+Turn of montiros
+Remote getter/setter step filters
+Uncomment x and substring

@@ -7,12 +7,12 @@ public class Calculator {
 		int b = 6;
 		int x = 10;
 
-		int result = a + b;
-		result *= x;
-		result += b;
-		result -= a;
+		int result1 = a + b;
+		int result2 = result1 * x;
+		int result3 = result2 + b;
+		int result4 = result3 - a;
 
-		String string = Integer.toHexString(result);
+		String string = Integer.toHexString(result4);
 
 		System.out.println(string);
 	}

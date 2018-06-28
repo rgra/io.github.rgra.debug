@@ -34,7 +34,7 @@ public final class BoatHire {
 			Boat boat = hiredBoats.get(person);
 			if (boat != null) {
 				availableBoats.push(boat);
-				person.name = person.name.substring(1);
+				person.setName(person.name.substring(1));
 			}
 		}
 		return true;

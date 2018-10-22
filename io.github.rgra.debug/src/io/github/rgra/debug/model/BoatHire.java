@@ -15,6 +15,9 @@ public final class BoatHire {
 	private final Map<Person, Boat> hiredBoats = new HashMap<>();
 
 	public Boat hireBoat(Person person) throws IllegalStateException {
+		if (person.getAge() < 35) {
+			throw new IllegalArgumentException("You are too young, sorry");
+		}
 		synchronized (lock) {
 			Boat boat = availableBoats.poll();
 			if (boat == null) {

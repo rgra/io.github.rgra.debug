@@ -1,7 +1,7 @@
 /**
  * Copyright by Rabea 2013
  */
-package io.github.rgra.debug;
+package io.github.rgra.demo;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;

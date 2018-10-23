@@ -1,4 +1,4 @@
-package io.github.rgra.debug;
+package io.github.rgra.demo;
 
 import lombok.Getter;
 import lombok.ToString;
